@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#box{
+  width: 50%;
+  border: 2px solid black;
+  padding: 32px 100px;
+  margin: 10px ;
+border-radius: 4px;
+}
+#Formsubmit{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.bi-exclamation-circle{
+color: rgb(213, 8, 8);
+}
+
+p{
+  display: inline-block;
+ color: rgb(213, 8, 8);
+}
+
+.form-group .error{
+  display: none;
+}
+.invalid .error{
+  display: flex;
+}
+.invalid input{
+  border-color: #d93025;
+}
+
+
+.question1 .Grosshide {
+  visibility: hidden;
+  width: 166px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+ margin: -11px 200px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.question1:hover .Grosshide {
+  visibility: visible;
+}
+
+.question2 .Extrahide {
+  visibility: hidden;
+  width: 143px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+ margin: -19px 158px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.question2:hover .Extrahide {
+  visibility: visible;
+}
+.question3 .Agehide {
+ visibility: hidden;
+  width: 166px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+ margin: -15px 124px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.question3:hover .Agehide {
+  visibility: visible;
+}
+.question4 .Deducthide {
+  visibility: hidden;
+  width: 166px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+ margin: -9px 221px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.question4:hover .Deducthide {
+  visibility: visible;
+}
